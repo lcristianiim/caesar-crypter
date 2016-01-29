@@ -1,0 +1,19 @@
+{
+  "name": "caesar-crypter",
+  "version": "1.0.0",
+  "description": "Encrypts text using a Caesar cipher",
+  "main": "lib/index.js",
+  "directories": {
+    "example": "example",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "node test",
+    "example": "node example"
+  },
+  "author": "Cristian Szabo <lcristianiim@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "tester": "^1.3.1"
+  }
+}
