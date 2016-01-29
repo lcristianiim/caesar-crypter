@@ -14,9 +14,9 @@ $ npm i caesar-crypter
 const caesarCrypter = require("caesar-crypter");
 
 // Encrypt the 'ab' message using base string 'abcdefgh', step 1, direction -1
-console.log(caesarCrypter.encrypt(1,-1,"abcdefgh","ab")); // [ 'h', 'a' ]
+console.log(caesarCrypter.encrypt(1,-1,"abcdefgh","ab")); // 'ha'
 // Decrypt the 'ha' message using base string 'abcdefgh', step 1, direction -1
-console.log(caesarCrypter.decrypt(1,-1,"abcdefgh","ha")); // [ 'a', 'b' ]
+console.log(caesarCrypter.decrypt(1,-1,"abcdefgh","ha")); // 'ab'
 
 ```
 
